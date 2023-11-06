@@ -54,3 +54,46 @@ export const cardData = [
     }
 
 ];
+
+
+
+// Accordian Item
+export const accordionItem = [
+
+    {
+        id: 1,
+        target: 'collapseOne',
+        header: '1. What are your restaurants hours of operation?',
+        bold: 'Answer: ',
+        desc: 'Our restaurant is open from [Opening Time] to [Closing Time] on [Days of the Week]. We serve breakfast, lunch, and dinner during these hours. Please note that our hours may vary on holidays, so feel free to check our website for any special holiday hours.'
+    },
+    {
+        id: 2,
+        target: 'collapseTwo',
+        header: '2. Do you offer vegetarian or vegan options on your menu?',
+        bold: 'Answer: ',
+        desc: 'Yes, we offer a variety of vegetarian and vegan dishes on our menu. You can find them clearly marked with a "V" or "VG" symbol. Our chefs take pride in creating delicious plant-based options that cater to different dietary preferences.'
+    },
+    {
+        id: 3,
+        target: 'collapseThree',
+        header: '3. Can I make a reservation for a table at your restaurant?',
+        bold: 'Answer: ',
+        desc: 'Absolutely! We offer a reservation system for your convenience. You can book a table online through our websites reservation page. If you prefer to make a reservation by phone, please call [Reservation Phone Number], and our staff will assist you in securing your table.'
+    },
+    {
+        id: 4,
+        target: 'collapseFour',
+        header: '4. What safety measures are you taking in light of COVID-19?',
+        bold: 'Answer: ',
+        desc: 'The health and safety of our guests and staff are our top priorities. We have implemented strict sanitation and safety protocols in line with local health guidelines. These measures include social distancing, regular sanitization, and mandatory mask-wearing for staff. You can find more information on our COVID-19 safety practices on our website.'
+    },
+    {
+        id: 5,
+        target: 'collapseFive',
+        header: '5. Do you offer catering services for events and special occasions?',
+        bold: 'Answer: ',
+        desc: 'Yes, we provide catering services for a wide range of events, from family gatherings to corporate meetings. Our catering menu offers a variety of options to suit your needs. For inquiries and to place a catering order, please visit our catering page on the website or contact our catering coordinator at [Catering Contact Email/Phone]. We are here to make your event a memorable one!'
+    }
+    
+];
